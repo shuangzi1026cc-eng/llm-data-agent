@@ -1,0 +1,4 @@
+# llm_config.py.example (开源配置模板)
+API_KEY = "your_api_key_here"
+BASE_URL = "https://api.deepseek.com"
+MODEL_NAME = "deepseek-"

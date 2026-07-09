@@ -23,4 +23,3 @@ Thumbs.db
 
 # API 配置
 config/llm_config.py
-config/db_config.py
