@@ -88,7 +88,6 @@ llm-data-agent/
 │   └── self_correct.py
 │
 ├── database/
-│   ├── sales.db
 │   └── schema_dict.json
 │
 ├── utils/

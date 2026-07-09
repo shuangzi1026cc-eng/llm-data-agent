@@ -1,0 +1,10 @@
+{
+  "users": {
+    "description": "用户信息表，记录注册用户的基本资料",
+    "ddl": "CREATE TABLE users (user_id INT PRIMARY KEY, user_name VARCHAR(50), age INT, city VARCHAR(50), register_date DATE);"
+  },
+  "orders": {
+    "description": "订单交易主表，记录每笔销售和消费明细",
+    "ddl": "CREATE TABLE orders (order_id INT PRIMARY KEY, user_id INT, order_date DATE, amount DECIMAL(10,2), status VARCHAR(20));"
+  }
+}
