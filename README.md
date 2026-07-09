@@ -78,6 +78,7 @@ llm-data-agent/
 │
 ├── config/
 │   ├── llm_config.py
+│   ├── llm_config.py.example.txt
 │   └── db_config.py
 │
 ├── core/
